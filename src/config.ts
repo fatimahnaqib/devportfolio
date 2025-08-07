@@ -7,7 +7,7 @@ export const siteConfig = {
     email: "fatimahnaqib987@gmail.com",
     linkedin: "https://www.linkedin.com/in/fatimah-naqib-b103a3194/",
     github: "https://github.com/fatimahnaqib",
-    resume: "/FatimahNaqib_Resume.pdf"
+    resume: "/fatimaportfolio/FatimahNaqib_Resume.pdf"
   },
   aboutMe:
   "I am a certified Data Engineer with a strong backend development background in Python. I specialize in building scalable backend systems and developing robust data pipelines using Apache Airflow and Kafka. With hands-on experience in cloud-native tools like AWS and Docker, I am passionate about creating reliable, high-performance data platforms that enable data-driven decision-making and solve real-world problems.",
