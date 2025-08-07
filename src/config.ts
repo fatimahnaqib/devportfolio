@@ -1,91 +1,132 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Fatimah Naqib",
+  title: "Certified Data Engineer | Backend Developer",
+  description: "Portfolio website of Fatimah Naqib",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "fatimahnaqib987@gmail.com",
+    linkedin: "https://www.linkedin.com/in/fatimah-naqib-b103a3194/",
+    github: "https://github.com/fatimahnaqib",
+    resume: "/FatimahNaqib_Resume.pdf"
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  "I am a certified Data Engineer with a strong backend development background in Python. I specialize in building scalable backend systems and developing robust data pipelines using Apache Airflow and Kafka. With hands-on experience in cloud-native tools like AWS and Docker, I am passionate about creating reliable, high-performance data platforms that enable data-driven decision-making and solve real-world problems.",
+  skills: [
+    "Python", "HTML", "XML", "JavaScript", "PHP", "Kotlin", "Bash",
+    "MySQL", "PostgreSQL", "IBM DB2", "MongoDB", "Cassandra", "Apache Kafka", "Airflow",
+    "Odoo", "React", "jQuery", "Meteor", "Bootstrap",
+    "AWS", "Docker", "Odoo.sh", "Datadog", "Jira", "Asana", "Confluence",
+    "Apache Spark", "ETL", "Data Pipelines",
+    "Tableau", "Power BI",
+    "Visual Studio", "Sublime Text", "PyCharm", "VSCode", "Eclipse",
+    "Windows", "Linux"
+  ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Wildfire Monitoring & Analysis Pipeline",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Real‑time wildfire monitoring pipeline using NASA FIRMS VIIRS, Apache Airflow, Kafka, PostgreSQL, Python, and Folium for geospatial visualization.",
+      link: "https://github.com/fatimahnaqib/wildfire-monitoring-analysis",
+      skills: ["Apache Airflow", "Kafka", "PostgreSQL", "Python", "Folium"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Odoo ETL & Analytics Pipeline",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "End‑to‑end ETL pipeline extracting data from Odoo 15 via XML‑RPC, transforming with Python, loading into PostgreSQL, and visualizing via Apache Superset. Dockerized and orchestrated with Airflow.",
+      link: "https://github.com/fatimahnaqib/odooops-insight",
+      skills: ["Odoo", "ETL", "Python", "PostgreSQL", "Superset", "Airflow", "Docker"],
     },
     {
-      name: "ExtensionKit",
+      name: "GitHub Search API App",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Django‑based application for exploring GitHub repository data, with setup via virtualenv, migrations, and local server deployment.",
+      link: "https://github.com/fatimahnaqib/github-searchAPI",
+      skills: ["Django", "Python", "API", "Deployment"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Twelve Fusion Studios",
+      title: "Software Engineer",
+      dateRange: "Jan 2024 – Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Built and maintained backend services and RESTful APIs using Python (Flask, Django)",
+        "Developed ETL pipelines and data workflows using Apache Airflow",
+        "Integrated Docker and CI/CD pipelines to streamline deployment",
+        "Worked with stakeholders to deliver clean, scalable backend solutions"
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "air up",
+      title: "Software Engineer II",
+      dateRange: "May 2022 – Dec 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Enhanced operational efficiency with Odoo modules (CRM, Sales, Accounting, etc.)",
+        "Integrated Odoo with Shopify and 3PL providers to optimize logistics",
+        "Built microservices using Kotlin, AWS, and Kubernetes",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
+      company: "Miller Media",
+      title: "Software Engineer",
       dateRange: "Aug 2018 - May 2020",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Implemented connector modules between Odoo, SkuVault, and QuickBooks",
+        "Developed custom Odoo modules and deployed them via odoo.sh",
+        "Built e-commerce websites using WordPress + WooCommerce",
+      ],
+    },
+    {
+      company: "NETLINKS Ltd",
+      title: "Software Engineer",
+      dateRange: "Sep 2017 – Aug 2019",
+      bullets: [
+        "Developed front-end interfaces and backend modules using Python, XML, JavaScript",
+        "Generated reports using QWeb and XlsxWriter",
+        "Collaborated on system analysis and testing for enterprise applications",
+      ],
+    },
+    {
+      company: "ServiceRocket",
+      title: "Application Support Engineer",
+      dateRange: "Jul 2016 – Dec 2016",
+      bullets: [
+        "Provided real-time technical support for Atlassian products (JIRA, Confluence)",
+        "Completed training in databases, Linux, problem solving, and soft skills",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
+      school: "International Islamic University Malaysia (IIUM)",
       degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      dateRange: "Nov 2012 – Oct 2016",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Graduated with Honors (GPA: 3.7)",
+        "Dean's List recipient",
+        "Served as a C++ programming tutor"
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Center for Foundation Studies (CFS IIUM)",
+      degree: "Foundation in Computer Science",
+      dateRange: "Nov 2010 – Oct 2011",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated with Honors (GPA: 3.7)",
+        "Tutored peers in Calculus",
+        "Served as class monitor, ensuring accountability and task completion during instructor absences"
+      ],
+    },
+    {
+      school: "Online Platform: Coursera",
+      degree: "IBM Data Engineering Certificate",
+      dateRange: "Issued Nov 2024",
+      achievements: [
+        "Completed a comprehensive certification program covering core data engineering tools and concepts",
+        "Designed and deployed hands-on ETL pipelines using Apache Airflow, Kafka, and cloud services",
+        "Analyzed large-scale datasets using Apache Spark and Hadoop for big data processing",
+        "Applied machine learning techniques using PySpark for distributed model training",
+        "Gained a solid foundation in data warehousing, data lakes, and modern data architecture"
       ],
     },
   ],
