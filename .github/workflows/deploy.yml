@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ master ]   
+    branches: [ master ]   # or 'main' if you're using main
   workflow_dispatch:
 
 permissions:
@@ -19,10 +19,6 @@ jobs:
 
       - name: Install, build, and upload site
         uses: withastro/action@v3
-        with:
-          path: .
-          site: 'https://fatimahnaqib.github.io'
-          base: '/devportfolio/'
 
   deploy:
     needs: build
