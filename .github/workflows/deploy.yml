@@ -16,8 +16,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Install, build, and upload site
         uses: withastro/action@v3
+        with:
+          path: .
+          site: 'https://fatimahnaqib.github.io'
+          base: '/devportfolio/'
 
   deploy:
     needs: build
